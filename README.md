@@ -1,6 +1,8 @@
 # Reacher environment for continuous action space
 Train arm to intact with ball using continuous control with DDPG
 
+![reacher](assets/reacher.png)
+
 ## Introduction
 
 For this project, you will work with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
@@ -73,7 +75,13 @@ Reward of agent without batch normalization at Critic network
 ![reward_nonorm](assets/rewards_wobatch.png)
 
 
+Best performing agent is with batch normalization at critic network with changing of input of first hidden layer to 256 and second hidden layer to 128.
+
+![reward_best](assets/rewards_withnetwork.png)
+
 ### Agent Weight 
 * checkpoint_actor.pth - actor agent
 * checkpoint_critic.pth - critic agent learnt through batch normalization
 * checkpoint_critic_without_batchnormalization - critic agent learnt through without normalization
+* checkpoint_actor_batchnormalization.pth - actor with 256,128 settings on hidden layer with batch normalization
+* checkpoint_critic_batchnormalization.pth - critic actor with 256,128 settings on hidden layer with batch normalization
