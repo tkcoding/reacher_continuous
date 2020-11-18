@@ -21,7 +21,7 @@ For this project, we will provide you with two separate versions of the Unity en
 
 The second version is useful for algorithms like [PPO](https://arxiv.org/pdf/1707.06347.pdf), [A3C](https://arxiv.org/pdf/1602.01783.pdf), and [D4PG](https://openreview.net/pdf?id=SyZipzbCb) that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.  
 
-## Obejective in solving the Environment and success criteria.
+## Objective in solving the Environment and success criteria.
 
 Note that your project submission need only solve one of the two versions of the environment. 
 
